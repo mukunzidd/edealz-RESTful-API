@@ -1,0 +1,28 @@
+{
+  "name": "edealz-restful-api",
+  "version": "1.0.0",
+  "description": "This is a Restfull API for the capstone project of an ecommerce app. The app will be called eDealz.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mukunzidd/edealz-RESTful-API.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "DoDo Mukunzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukunzidd/edealz-RESTful-API/issues"
+  },
+  "homepage": "https://github.com/mukunzidd/edealz-RESTful-API#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "*",
+    "mongoose": "*"
+  }
+}
