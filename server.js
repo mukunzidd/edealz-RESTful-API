@@ -2,7 +2,6 @@
 //========== BASE SETUP
 
 // calling needed packages
-
 var express = require('express');
 var	app = express();
 var	bodyParser = require('body-parser');
@@ -14,11 +13,8 @@ Product = require('./app/models/product');
 mongoose.connect('mongodb://localhost/edealzapi');
 var db = mongoose.connection;
 
-
-
 // configure app to use bodyParser()
 // this lets me get data from POST requests
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true }));
 
