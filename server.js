@@ -70,6 +70,17 @@ app.put('/api/products/:_id', function(req, res){
     });
 });
 
+// Update a product
+app.delete('/api/products/:_id', function(req, res){
+    var id = req.params._id;
+    Product.removeProduct(id, function(err, product){
+        if(err){
+            throw err;
+        }
+        res.json(product);
+    });
+});
+
 //========== START THE SERVER
 
 app.listen(3000);

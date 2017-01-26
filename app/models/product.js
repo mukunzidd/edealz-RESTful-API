@@ -46,6 +46,7 @@ module.exports.addProduct = function(product, callback){
 }
 
 // Update a product
+
 module.exports.updateProduct = function(id, product, options, callback){
 	var query = {_id: id};
 	var update = {
@@ -55,4 +56,11 @@ module.exports.updateProduct = function(id, product, options, callback){
 		description: product.image
 	}
 	Product.findOneAndUpdate(query, update, options,callback);
+}
+
+// Delete a Product
+
+module.exports.removeProduct = function(id, callback){
+	var query = {_id: id};
+	Product.remove(query, callback);
 }
