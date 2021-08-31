@@ -1,7 +1,6 @@
 # eDealz API
 
-*edealz-RESTful-API* repo hosts, the source code for an ExpresJS API that I'm building for a Mini-Capstone project that I am building in the MEAN stack. This is where all the hustle reside.
-
+*edealz-RESTful-API* repo hosts, the source code for an ExpresJS API that I'm building for a Mini-Capstone project that I am building in the MEAN stack. 
 
 ## Run this api on your local machine
 
